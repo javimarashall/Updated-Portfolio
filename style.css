@@ -5,3 +5,12 @@
 .nav {
     color: white;
 }
+.photo {
+    align-items: center;
+}
+body {
+    background-color: rgb(26, 26, 26);
+}
+.About-me {
+    color:white;
+}
