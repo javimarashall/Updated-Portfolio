@@ -9,11 +9,10 @@ On the left side of the page is a sidebar that contains my photo, my name, a lis
 ![site](./assets/images/site.png)
 
 ## Code Snippet
-
+This code snippet represents a part of the code that makes my projects appear on the rights side of the application. When the user clicks on another of my projects, the application switches and displays the information of the next project that was clicked.   
 `
  $(".project-btn").on("click", (event) => {
-
-        var data = null;
+    var data = null;
         switch ($(event.target).text()) {
             case "Trail Scout":
                 data = projectData[0];
