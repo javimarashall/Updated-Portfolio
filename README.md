@@ -10,7 +10,7 @@ On the left side of the page is a sidebar that contains my photo, my name, a lis
 
 ## Code Snippet
 This code snippet represents a part of the code that makes my projects appear on the rights side of the application. When the user clicks on another of my projects, the application switches and displays the information of the next project that was clicked.   
-`
+```javascript
  $(".project-btn").on("click", (event) => {
     var data = null;
         switch ($(event.target).text()) {
@@ -26,4 +26,13 @@ This code snippet represents a part of the code that makes my projects appear on
             default:
                 break;
         }
-`
+```
+## Repository Link
+https://github.com/javimarashall/Updated-Portfolio
+
+## Deploy Link
+https://javimarashall.github.io/Updated-Portfolio/
+
+## Personal Links
+[Github](https://github.com/javimarashall)<br>
+[Linkedin](https://www.linkedin.com/in/javier-mondragon-7b471719b/)
