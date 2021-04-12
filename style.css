@@ -33,13 +33,15 @@ body {
 .fa-linkedin {
     background: #007bb5;
     color: white;
+    margin-top: 20px;
   }
   a {
       text-decoration: none;
   }
   .fa-github {
       font-size: 60px;
-      margin-left: -16px;
+      margin-left: 20px;
       background-color:white;
       color: black;
+      margin-top: 20px;
   }
