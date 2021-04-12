@@ -7,3 +7,24 @@ On the left side of the page is a sidebar that contains my photo, my name, a lis
 
 ## Site
 ![site](./assets/images/site.png)
+
+## Code Snippet
+
+`
+ $(".project-btn").on("click", (event) => {
+
+        var data = null;
+        switch ($(event.target).text()) {
+            case "Trail Scout":
+                data = projectData[0];
+                break;
+            case "Weather Dashboard":
+                data = projectData[1];
+                break;
+            case "Daily Planner":
+                data = projectData[2];
+                break;
+            default:
+                break;
+        }
+`
