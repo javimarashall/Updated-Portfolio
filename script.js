@@ -23,7 +23,7 @@ $(document).ready(() => {
             description: ""
         }
     ];
-
+//call on event listener 
     $(".project-btn").on("click", (event) => {
 
         var data = null;
